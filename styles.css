@@ -101,6 +101,9 @@ h1 .en, .tagline .en {
   font-weight: 500;
   color: var(--muted);
   letter-spacing: 0.02em;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  padding: 0 4px;
 }
 .tagline { margin: 14px auto 0; max-width: 36em; }
 .tagline .zh { display: block; font-size: clamp(14px, 2.6vw, 17px); line-height: 1.7; }
@@ -280,6 +283,7 @@ footer {
   body { padding-top: calc(10px + var(--safe-t)); padding-bottom: calc(18px + var(--safe-b)); }
   .hero { padding-top: 4px; }
   h1 .zh { font-size: 26px; }
+  h1 .en { font-size: 12.5px; line-height: 1.45; }
   .tagline { margin-top: 8px; }
   .tagline .en { display: none; }
   .toolbar { margin-top: 12px; margin-bottom: 10px; }
@@ -290,3 +294,5 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   .card, .chip, .open { transition: none; }
 }
+
+[lang="en"], .name-en, .foot-en { font-family: "Noto Sans", "Helvetica Neue", Arial, "Noto Sans TC", sans-serif; }

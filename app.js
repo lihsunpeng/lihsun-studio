@@ -6,7 +6,7 @@ const TAG_LABEL = {
   soon: '即將推出'
 };
 
-const VERSION = '1';
+const VERSION = '2';
 let data = null;
 let active = 'all';
 
@@ -70,7 +70,12 @@ function applyPlatform(platform) {
   if (!platform) return;
   if (platform.nameZh) {
     const zh = document.querySelector('h1 .zh');
-    if (zh) zh.innerHTML = platform.nameZh.replace(' 作品平台', '<br>作品平台');
+    if (zh) {
+      const i = platform.nameZh.indexOf(' ');
+      zh.innerHTML = i > 0
+        ? platform.nameZh.slice(0, i) + '<br>' + platform.nameZh.slice(i + 1)
+        : platform.nameZh;
+    }
   }
   if (platform.nameEn) {
     const en = document.querySelector('h1 .en');
@@ -83,6 +88,10 @@ function applyPlatform(platform) {
   if (platform.taglineEn) {
     const t = document.querySelector('.tagline .en');
     if (t) t.textContent = platform.taglineEn;
+  }
+  if (platform.nameZh || platform.nameEn) {
+    const parts = [platform.nameZh, platform.nameEn].filter(Boolean);
+    document.title = parts.join('｜');
   }
 }
 
