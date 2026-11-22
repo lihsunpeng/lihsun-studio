@@ -1,0 +1,68 @@
+{
+  "platform": {
+    "nameZh": "立勛整合設計 作品平台",
+    "nameEn": "Lihsun Integrative Design · Works Platform",
+    "taglineZh": "一個入口，收藏所有作品。原本的專案連結都不會變。",
+    "taglineEn": "One doorway to every work. Original project links do not change.",
+    "companyZh": "立勛整合設計公司",
+    "companyEn": "Lihsun Integrative Design"
+  },
+  "categories": [
+    { "id": "all", "labelZh": "全部", "labelEn": "All" },
+    { "id": "3d", "labelZh": "3D 互動", "labelEn": "3D Interactive" },
+    { "id": "architecture", "labelZh": "建築", "labelEn": "Architecture" },
+    { "id": "office", "labelZh": "辦公室", "labelEn": "Office" },
+    { "id": "education", "labelZh": "教學", "labelEn": "Education" },
+    { "id": "soon", "labelZh": "即將推出", "labelEn": "Coming Soon" }
+  ],
+  "projects": [
+    {
+      "id": "taipei-arch-island",
+      "nameZh": "台北建築島",
+      "nameEn": "Taipei Architecture Island",
+      "summaryZh": "四座小島、四座橋，用 3D 漫遊認識台北建築、美食與時光故事。",
+      "summaryEn": "Four islands and four bridges: a 3D stroll through Taipei’s architecture, food, and history.",
+      "url": "https://lihsunpeng.github.io/taipei-arch-island/?v=50",
+      "thumb": "thumbs/taipei.jpg",
+      "tags": ["3d", "architecture"],
+      "status": "live",
+      "year": 2026
+    },
+    {
+      "id": "lixun-office-3d",
+      "nameZh": "3D 辦公室",
+      "nameEn": "3D Virtual Office",
+      "summaryZh": "立勛整合設計的虛擬辦公室：專員狀態、財位水族箱與植栽競賽都在這裡。",
+      "summaryEn": "The studio’s virtual office, with staff status boards, a fortune aquarium, and a plant contest.",
+      "url": "https://lihsunpeng.github.io/lixun-office-3d/index.html?v=20261122c",
+      "thumb": "thumbs/office.jpg",
+      "tags": ["3d", "office"],
+      "status": "live",
+      "year": 2026
+    },
+    {
+      "id": "greek-orders-3d",
+      "nameZh": "希臘三柱式 3D",
+      "nameEn": "The Three Greek Orders",
+      "summaryZh": "多立克、愛奧尼克、柯林斯三根柱式，搭配彩色 3D 人物與講義比較表。",
+      "summaryEn": "Doric, Ionic and Corinthian orders, with colour 3D figures and a comparative handout.",
+      "url": "https://lihsunpeng.github.io/greek-orders-3d/?v=4",
+      "thumb": "thumbs/greek.jpg",
+      "tags": ["3d", "architecture", "education"],
+      "status": "live",
+      "year": 2026
+    },
+    {
+      "id": "coming-soon-1",
+      "nameZh": "下一個專案",
+      "nameEn": "Coming Soon",
+      "summaryZh": "這裡預留給之後的新作品。要上架時，只要在 projects.json 加一筆資料。",
+      "summaryEn": "Reserved for the next work. Publish it by adding one entry to projects.json.",
+      "url": null,
+      "thumb": null,
+      "tags": ["soon"],
+      "status": "soon",
+      "year": null
+    }
+  ]
+}
