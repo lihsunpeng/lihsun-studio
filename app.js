@@ -6,7 +6,7 @@ const TAG_LABEL = {
   soon: '即將推出'
 };
 
-const VERSION = '3';
+const VERSION = '4';
 let data = null;
 let active = 'all';
 

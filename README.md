@@ -2,7 +2,7 @@
 
 Dr. Lihsun PENG’s Interactive Design Platform
 
-公開網址：https://lihsunpeng.github.io/lihsun-studio/?v=3
+公開網址：https://lihsunpeng.github.io/lihsun-studio/?v=4
 
 這是包在三個既有專案外面的總入口。點卡片會用新分頁打開原本的網址，那三個專案的連結、倉庫都不會被改動。
 
