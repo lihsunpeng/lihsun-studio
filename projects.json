@@ -8,12 +8,36 @@
     "companyEn": "Lihsun Integrative Design"
   },
   "categories": [
-    { "id": "all", "labelZh": "全部", "labelEn": "All" },
-    { "id": "3d", "labelZh": "3D 互動", "labelEn": "3D Interactive" },
-    { "id": "architecture", "labelZh": "建築", "labelEn": "Architecture" },
-    { "id": "office", "labelZh": "辦公室", "labelEn": "Office" },
-    { "id": "education", "labelZh": "教學", "labelEn": "Education" },
-    { "id": "soon", "labelZh": "即將推出", "labelEn": "Coming Soon" }
+    {
+      "id": "all",
+      "labelZh": "全部",
+      "labelEn": "All"
+    },
+    {
+      "id": "3d",
+      "labelZh": "3D 互動",
+      "labelEn": "3D Interactive"
+    },
+    {
+      "id": "architecture",
+      "labelZh": "建築",
+      "labelEn": "Architecture"
+    },
+    {
+      "id": "office",
+      "labelZh": "辦公室",
+      "labelEn": "Office"
+    },
+    {
+      "id": "education",
+      "labelZh": "教學",
+      "labelEn": "Education"
+    },
+    {
+      "id": "soon",
+      "labelZh": "即將推出",
+      "labelEn": "Coming Soon"
+    }
   ],
   "projects": [
     {
@@ -24,7 +48,10 @@
       "summaryEn": "Four islands and four bridges: a 3D stroll through Taipei’s architecture, food, and history.",
       "url": "https://lihsunpeng.github.io/taipei-arch-island/?v=50",
       "thumb": "thumbs/taipei.jpg",
-      "tags": ["3d", "architecture"],
+      "tags": [
+        "3d",
+        "architecture"
+      ],
       "status": "live",
       "year": 2026
     },
@@ -36,7 +63,10 @@
       "summaryEn": "The studio’s virtual office, with staff status boards, a fortune aquarium, and a plant contest.",
       "url": "https://lihsunpeng.github.io/lixun-office-3d/index.html?v=20261122c",
       "thumb": "thumbs/office.jpg",
-      "tags": ["3d", "office"],
+      "tags": [
+        "3d",
+        "office"
+      ],
       "status": "live",
       "year": 2026
     },
@@ -48,7 +78,27 @@
       "summaryEn": "Doric, Ionic and Corinthian orders, with colour 3D figures and a comparative handout.",
       "url": "https://lihsunpeng.github.io/greek-orders-3d/?v=4",
       "thumb": "thumbs/greek.jpg",
-      "tags": ["3d", "architecture", "education"],
+      "tags": [
+        "3d",
+        "architecture",
+        "education"
+      ],
+      "status": "live",
+      "year": 2026
+    },
+    {
+      "id": "europe-footsteps-3d",
+      "nameZh": "石板路上的足跡 3D",
+      "nameEn": "Footprints on Cobblestones 3D",
+      "summaryZh": "雲科大演講「用設計人的眼睛看歐洲」：從 3D 地球飛到希臘、土耳其、義大利、波蘭 25 站，再走進石板路一站一站看照片。",
+      "summaryEn": "From a 3D globe to 25 stops in Greece, Türkiye, Italy and Poland, then a cobblestone walk through each stop's photos.",
+      "url": "https://lihsunpeng.github.io/europe-footsteps-3d/?v=2",
+      "thumb": "thumbs/europe.jpg",
+      "tags": [
+        "3d",
+        "architecture",
+        "education"
+      ],
       "status": "live",
       "year": 2026
     },
@@ -60,7 +110,9 @@
       "summaryEn": "Reserved for the next work. Publish it by adding one entry to projects.json.",
       "url": null,
       "thumb": null,
-      "tags": ["soon"],
+      "tags": [
+        "soon"
+      ],
       "status": "soon",
       "year": null
     }

@@ -2,7 +2,7 @@
 
 Dr. Lihsun PENG’s Interactive Design Platform
 
-公開網址：https://lihsunpeng.github.io/lihsun-studio/?v=2
+公開網址：https://lihsunpeng.github.io/lihsun-studio/?v=3
 
 這是包在三個既有專案外面的總入口。點卡片會用新分頁打開原本的網址，那三個專案的連結、倉庫都不會被改動。
 
@@ -11,6 +11,7 @@ Dr. Lihsun PENG’s Interactive Design Platform
 - 台北建築島 https://lihsunpeng.github.io/taipei-arch-island/?v=50
 - 3D 辦公室 https://lihsunpeng.github.io/lixun-office-3d/index.html?v=20261122c
 - 希臘三柱式 3D https://lihsunpeng.github.io/greek-orders-3d/?v=4
+- 石板路上的足跡 3D https://lihsunpeng.github.io/europe-footsteps-3d/?v=2（2026-11-23 加入）
 
 ## 如何新增一個專案
 
